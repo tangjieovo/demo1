@@ -1,6 +1,6 @@
 <%--头部--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<%@ page isELIgnored="false"%>
 <html>
 <head>
     <meta charset="UTF-8">

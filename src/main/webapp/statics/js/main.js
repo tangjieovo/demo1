@@ -41,7 +41,7 @@
     $('.search-box').hover(function(){
         $(this).find('span')
             .addClass('down-icon-circle').css({
-                background: '#f50 url(img/arrow-white.png) no-repeat center'
+                background: '#f50 url(${pageContext.request.contextPath }/statics/img/arrow-white.png) no-repeat center'
             });
     }, function(){
         $(this).find('span')
@@ -202,7 +202,7 @@
     $('.more-btn').click(function(){
         if(flag){
             $(this).css({
-                background: '#f40 url(img/up.png) no-repeat 90% center'
+                background: '#f40 url(${pageContext.request.contextPath }/statics/img/up.png) no-repeat 90% center'
             });
             $('.sub-nav').css({
                 height: '145px'
