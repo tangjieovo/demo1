@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page isELIgnored="false"%>
+<%@ page isELIgnored="false" %>
 <html lang="en">
 
 <head>
@@ -9,172 +9,12 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath }/statics/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath }/statics/css/style.css"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath }/statics/css/bootstrap.css" type="text/css">
-    <script type="application/javascript" src="${pageContext.request.contextPath }/statics/js/jquery-1.12.4.js"></script>
+    <script type="application/javascript"
+            src="${pageContext.request.contextPath }/statics/js/jquery-1.12.4.js"></script>
     <script type="application/javascript" src="${pageContext.request.contextPath }/statics/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath }/statics/css/Sellerbackstage.css">
+    <script type="application/javascript" src="${pageContext.request.contextPath }/statics/js/Sellerbackstage.js"></script>
 </head>
-<script>
-    $(function ($) {
-        /* $("#mokuai2>div").bind("mouseover",function () {
-           //  $(this).css("background-color","red");
-         });*/
-        /* $("#mokuai2>div").toggle(function () {
-
-          }, function () {
-              $(this).css("background-color", "");
-          });*/
-        $("#mokuai2>div").mousemove(function () {
-            // $(this).css("background-color", "#245100");
-            //$(this).css("color", "blue");
-            $(this).children("p").children("a").css("color", "blue");
-            $(this).addClass("box-shadow");
-            // $(this).css('box-shadow', ((p) > startPos) ? '0 0 5px #888' : '0 0 0 #888');
-        }).mouseout(function () {
-            // $(this).css("background-color", "");
-            //  $(this).css("color", "");
-            $(this).children("p").children("a").css("color", "");
-            $(this).removeClass("box-shadow");
-
-        });
-
-        $("#guanbi").bind("click",function () {
-            $(this).parent().parent().hide();
-        })
-
-    });
-</script>
-<style type="text/css">
-    .box-shadow {
-        box-shadow: 1px 1px 1px 1px Silver;
-    }
-
-    .rebox-shadow {
-        box-shadow: 0px 0px 0px 0px white;
-    }
-
-    /* .obj{
-    //圆形
-         border-radius:100px;
-         width:100px;
-         height:100px;
-         margin:50px auto;
-         background:#eee;
-     }*/
-</style>
-<style>
-
-
-    body {
-        background-color: whitesmoke;
-    }
-
-    a:hover {
-        text-decoration-line: none;
-    }
-
-    #top {
-        float: top;
-        color: white;
-    }
-
-    a {
-        color: black;
-    }
-
-    #mokuai1 {
-        margin-left: 10px;
-    }
-
-    #mokuai3 {
-        margin-left: -103px;
-        margin-top: 10px;
-    }
-
-    #mokuai4 {
-        margin-top: 10px;
-    }
-
-    #mokuai1 .num {
-        font-size: 25px;
-        color: blue;
-    }
-
-    #weigui {
-        font-size: 25px;
-        color: red;
-    }
-
-    #img-div div p {
-        margin-left: -18px;
-    }
-
-    #img-div2 div p {
-        margin-left: -18px;
-    }
-
-    #mokuai5 {
-        background-color: white;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-
-    .dianpu div:hover {
-        border: 0px solid black;
-        box-shadow: 1px 1px 1px 1px Silver;
-    }
-
-    .dianpu strong {
-        font-size: 25px;
-
-    }
-
-    #mokuai7, #mokuai6 {
-        margin-top: 10px;
-        background-color: white;
-        margin-left: 10px;
-    }
-
-    .yunyin strong {
-        font-size: 25px;
-        color: blue;
-    }
-
-    .yunyin div {
-        border-right: 1px solid Silver;
-    }
-
-    .yunyin div:hover {
-        box-shadow: 1px 1px 1px 1px Silver;
-    }
-
-    .dianpu div {
-        border-right: 1px solid Silver;
-    }
-
-    .dianpu div:last-child {
-        border-right: 0px solid Silver;
-    }
-
-    .yunyin div:last-child {
-        border-right: 0px solid Silver;
-    }
-
-    .zizhanghao div:hover {
-        box-shadow: 1px 1px 1px 1px Silver;
-    }
-    #guanggao{
-        border: 0px solid red;
-        width: 200px;
-        height: 195px;
-        position: absolute;
-        top:290px;
-        left:1140px;
-    }
-    #guanbi{
-        position: absolute;
-
-    }
-
-</style>
 <body>
 <div id="top" class="container-fluid">
     <div class="row">
@@ -261,7 +101,7 @@
                 <span class="glyphicon glyphicon glyphicon-gift" aria-hidden="true"></span>
                 <strong>宝贝管理</strong>
                 <br>
-                <li><a href="${path}/release/Releasebaby.html">发布宝贝</a></li>
+                <li><a href="${pageContext.request.contextPath }/release/release.html">发布宝贝</a></li>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <li><a href="#">出售中的宝贝</a></li>
                 <li><a href="#">体检中心</a></li>
@@ -497,23 +337,23 @@
 
         <div id="guanggao">
             <div class="thumbnail">
-              <p> <img src="image/img1.jpg" alt="" width="180px " height="150px">
-                  <span id="guanbi" class="glyphicon glyphicon glyphicon-remove"></span></p>
+                <p><img src="image/img1.jpg" alt="" width="180px " height="150px">
+                    <span id="guanbi" class="glyphicon glyphicon glyphicon-remove"></span></p>
                 <p><a href="#">开通阿里云会员</a></p>
             </div>
         </div>
         <!--广告-->
-       <!-- <div id="mokuai5-1" class="col-lg-2 col-sm-2 col-md-2">
-            &lt;!&ndash;<div class="row">
-                <div class="col-lg-6 col-sm-6 col-md-6">
-                    <div class="thumbnail">
-                        <img src="image/img1.jpg" alt="" width="50px" height="50px">
-                    </div>
-                </div>
-            </div>&ndash;&gt;
-a
-        </div>-->
-       <!-- 用户运营-->
+        <!-- <div id="mokuai5-1" class="col-lg-2 col-sm-2 col-md-2">
+             &lt;!&ndash;<div class="row">
+                 <div class="col-lg-6 col-sm-6 col-md-6">
+                     <div class="thumbnail">
+                         <img src="image/img1.jpg" alt="" width="50px" height="50px">
+                     </div>
+                 </div>
+             </div>&ndash;&gt;
+ a
+         </div>-->
+        <!-- 用户运营-->
         <div id="mokuai6" class="col-lg-5 col-sm-5 col-md-5">
             <div class="row">
                 <div class="col-lg-10 col-sm-10 col-md-10">
@@ -620,7 +460,7 @@ a
                 </div>
             </div>
         </div>
-<!--智慧提醒-->
+        <!--智慧提醒-->
         <div id="mokuai7" class="col-lg-4 col-sm-4 col-md-4">
             <div class="row">
                 <div class="col-lg-10 col-sm-10 col-md-10">

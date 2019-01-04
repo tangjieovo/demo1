@@ -1,0 +1,119 @@
+.box-shadow {
+    box-shadow: 1px 1px 1px 1px Silver;
+}
+
+.rebox-shadow {
+    box-shadow: 0px 0px 0px 0px white;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+a:hover {
+    text-decoration-line: none;
+}
+
+#top {
+    float: top;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+#mokuai1 {
+    margin-left: 10px;
+}
+
+#mokuai3 {
+    margin-left: -103px;
+    margin-top: 10px;
+}
+
+#mokuai4 {
+    margin-top: 10px;
+}
+
+#mokuai1 .num {
+    font-size: 25px;
+    color: blue;
+}
+
+#weigui {
+    font-size: 25px;
+    color: red;
+}
+
+#img-div div p {
+    margin-left: -18px;
+}
+
+#img-div2 div p {
+    margin-left: -18px;
+}
+
+#mokuai5 {
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.dianpu div:hover {
+    border: 0px solid black;
+    box-shadow: 1px 1px 1px 1px Silver;
+}
+
+.dianpu strong {
+    font-size: 25px;
+
+}
+
+#mokuai7, #mokuai6 {
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.yunyin strong {
+    font-size: 25px;
+    color: blue;
+}
+
+.yunyin div {
+    border-right: 1px solid Silver;
+}
+
+.yunyin div:hover {
+    box-shadow: 1px 1px 1px 1px Silver;
+}
+
+.dianpu div {
+    border-right: 1px solid Silver;
+}
+
+.dianpu div:last-child {
+    border-right: 0px solid Silver;
+}
+
+.yunyin div:last-child {
+    border-right: 0px solid Silver;
+}
+
+.zizhanghao div:hover {
+    box-shadow: 1px 1px 1px 1px Silver;
+}
+#guanggao{
+    border: 0px solid red;
+    width: 200px;
+    height: 195px;
+    position: absolute;
+    top:290px;
+    left:1140px;
+}
+#guanbi{
+    position: absolute;
+
+}
+

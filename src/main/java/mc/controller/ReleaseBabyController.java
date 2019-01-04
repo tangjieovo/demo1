@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/release")
 public class ReleaseBabyController {
 
-    @RequestMapping("/Releasebaby.html")
+    @RequestMapping("/release.html")
     public String releaseBaby(){
         return "Releasebaby";
     }

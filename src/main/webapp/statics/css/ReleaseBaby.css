@@ -1,0 +1,162 @@
+.pbt {
+    margin-bottom: 10px;
+}
+
+.ie6 .pbt .ftid a, .ie7 .pbt .ftid a {
+    margin-top: 1px;
+}
+
+.cl:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#ding, .shouji {
+    background-color: white;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration-line: none;
+    color: blue;
+}
+
+#logo {
+    height: 80px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+#logo img {
+    position: relative;
+    top: 15px;
+    left: 100px;
+}
+
+#logo span {
+    position: relative;
+    top: 18px;
+    left: 110px;
+    font-size: 25px;
+}
+
+.xieyi, #dibu, .daohangtiao, #jichu, #xiaoshou {
+    margin-top: 20px;
+    /*  background-color: white;*/
+}
+
+#tuwenmiaoshu, #zhifu, #wuliu, #shouhou, #dibu {
+    margin-top: 20px;
+
+}
+
+#caogao {
+    position: relative;
+    right: 31px;
+    bottom: 0px;
+}
+
+
+.daohangtiao div {
+    border: 0px solid red;
+    /* background-color: white;*/
+}
+
+.daohangtiao div:last-child {
+    border: 0px solid red;
+    /* background-color: white;*/
+}
+
+.daohangtiao ul li {
+    list-style-type: none;
+}
+
+.navbar {
+    background-color: white;
+}
+
+#jichu strong {
+    position: relative;
+    top: 10px;
+}
+
+#xiaoshou strong {
+    position: relative;
+    top: 10px;
+}
+
+span span {
+    color: red;
+}
+
+.shuxing select {
+    width: 150px;
+    height: 30px;
+}
+
+span a {
+    color: blue;
+}
+
+/*.shuxing{
+    border: 1px solid ;
+    color: whitesmoke;
+}*/
+
+.xiaoshou {
+    background-color: whitesmoke;
+}
+
+.tupian div {
+    width: 100px;
+    height: 90px;
+    border: 1px dashed #c1e2b3;
+}
+
+#dibu {
+    background-color: white;
+
+}
+
+#dibu a {
+    font-size: 12px;
+    color: silver;
+}
+
+#dibu a:hover {
+
+    color: blue;
+}
+
+#tijiao {
+    /* height: 200px;
+     margin:0 auto;
+     overflow:hidden;
+     position: fixed;
+     bottom:0;*/
+}
+
+.tupian .glyphicon-plus {
+    color: royalblue;
+    margin-left: 10px;
+    margin-top: 13px;
+    font-size: 50px;
+}
+
+.tupian p {
+    margin-left: 5px;
+}
+
+
